@@ -1,0 +1,97 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.userProfileViewer {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+  
+ 
+}
+.chip{
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 15px;
+  line-height: 28px;
+  border-radius: 0 15px 0 0;
+  text-align: center;
+  padding-top: 10px;
+  /* border: 1px; */
+  border-bottom: 0.05px solid grey;
+}
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%
+}
+.title {
+  color: grey;
+  font-size: 10px;
+}
+.name{
+  padding-top: 20px;
+}
+.card{
+  background-color: #FFFFFF;
+  width: 25%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  
+  
+}
+.Contact{
+  color: rgb(25, 24, 24);
+  font-size: 20px;
+}
+.email{
+  word-spacing: 15px;
+}
+.ChevronRightSmall{
+  position: relative;
+    top: 3px;
+}
+.esp{
+  padding-right: 18px;
+}
+.info{
+  font-size: 15px;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+.overlay {
+position: relative; 
+top:10px;
+ opacity:0; 
+
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.showname{
+  cursor: pointer;
+}
+.siteContact {
+  @include ms-font-l;
+  color: $ms-color-black;
+  margin-top: 5px;
+}
+
+.lpcSample {
+  color: inherit;
+}
+
+
+

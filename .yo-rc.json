@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "spfx-react-userprofile",
+    "libraryId": "ad9581cb-0188-455f-a59b-56eb0c56a934",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-react-userprofile",
+    "solutionShortDescription": "spfx-react-userprofile description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-userprofile-client-side-solution",
+    "id": "ad9581cb-0188-455f-a59b-56eb0c56a934",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-react-userprofile description"
+      },
+      "longDescription": {
+        "default": "spfx-react-userprofile description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-react-userprofile Feature",
+        "description": "The feature that activates elements of the spfx-react-userprofile solution.",
+        "id": "369ed823-2633-4120-a5f0-0fe514cb3ed2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-userprofile.sppkg"
+  }
+}
